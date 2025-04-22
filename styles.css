@@ -1,0 +1,133 @@
+body {
+	background-color: black;
+	background-image:  radial-gradient(yellow 2px, transparent 2px), radial-gradient(yellow 2px, black 2px);
+	background-size: 80px 80px;
+	background-position: 0 0,40px 40px;
+	color: #00ff00;
+	font-family: 'IBM Plex Mono', 'Courier New', monospace;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+/* Link settings */
+a:link {
+	color: yellow;
+	text-decoration: none;
+
+}
+a:visited {
+	color: yellow;
+	text-decoration: none;
+
+} 
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+/* Box settings */
+.container {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 1px solid #00ff00;
+	background-color: black;
+}
+
+.blogs,
+.projects {
+	border: 1px solid #00ff00;
+	padding: 10px;
+	margin: 20px auto;
+	background-color: black;
+}
+
+.projects .description {
+	padding: 10px;
+	border: 1px solid #00ff00;
+	margin: 10px 0;
+	background-color: #2A0A5C;
+	color: white
+}
+.post .description {
+	padding: 10px;
+	border: 1px solid #00ff00;
+	margin: 10px 0;
+	background-color: #2A0A5C;
+	color: white
+}
+/* Header settings */
+header {
+	border-bottom: 1px solid #00ff00;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 20px;
+	color: #00ff00;
+}
+
+header img {
+	width: 60px;
+	height: 60px;
+}
+
+/* Navigation settings */
+nav {
+	margin-bottom: 20px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	margin: 5px 5px;
+}
+
+/* Main settings */
+main {
+	margin-bottom: 20px;
+}
+
+.post {
+	color: white;
+	border: 1px solid #00ff00;
+	padding: 10px;
+	margin-bottom: 20px;
+	min-height: 100px; /* Placeholder for content */
+}
+
+.post h2{
+	color: #00ff00;
+}
+
+.Blog, .Projects {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.Blog a:hover, .Projects a:hover {
+	text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+	border-top: 1px solid #00ff00;
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+	color: #00ff00;
+}
