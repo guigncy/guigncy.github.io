@@ -42,14 +42,7 @@ a:hover {
 	background-color: black;
 }
 
-.projects .description {
-	padding: 10px;
-	border: 1px solid #00ff00;
-	margin: 10px 0;
-	background-color: #2A0A5C;
-	color: white
-}
-.post .description {
+.description {
 	padding: 10px;
 	border: 1px solid #00ff00;
 	margin: 10px 0;
@@ -109,12 +102,12 @@ main {
 	color: #00ff00;
 }
 
-.Blog, .Projects {
+.blogs, .Projects {
 	margin-bottom: 20px;
 	font-weight: bold;
 }
 
-.Blog a:hover, .Projects a:hover {
+.blogs a:hover, .Projects a:hover {
 	text-decoration: underline;
 }
 
