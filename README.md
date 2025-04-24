@@ -1,9 +1,13 @@
-# My site...
-guigncy.github.io
-Static HTML/CSS site with:
-- Terminal aesthetic (green text/black bg)
-- Social links
-- Project displays
-- Blog section
+[guigncy.github.io
+](https://guigncy.github.io/)
+=================
 
-Work in progress⚠️.
+A static HTML/CSS portfolio site with a retro terminal aesthetic.
+
+Features:
+
+- Green-on-black "terminal" theme
+- ASCII night sky background
+- Links to social profiles
+- Highlights for personal projects
+- Some blog posts
