@@ -1,8 +1,7 @@
 body {
-	background-color: black;
-	background-image:  radial-gradient(yellow 2px, transparent 2px), radial-gradient(yellow 2px, black 2px);
-	background-size: 80px 80px;
-	background-position: 0 0,40px 40px;
+    background-image: url('assets/ASCII-Art-Night-Sky.png'); /* Set the background image */
+    background-repeat: repeat; /* Make the image tile */
+    background-color: black; /* Fallback color if the image doesn't load */
 	color: #00ff00;
 	font-family: 'IBM Plex Mono', 'Courier New', monospace;
 	margin: 0;
@@ -60,8 +59,9 @@ header {
 
 header h1 {
 	margin: 0;
-	font-size: 20px;
+	font-size: 40px;
 	color: #00ff00;
+	font-family: "Jersey 10", sans-serif;
 }
 
 header img {
@@ -117,4 +117,14 @@ footer p {
 	margin: 0;
 	font-size: 14px;
 	color: #00ff00;
+}
+
+/* Pikachu Highlighting */
+#pikachu {
+	cursor: pointer;
+	filter: drop-shadow(0 0 10px orange);
+	transition: transform 0.2s ease;
+}  
+#pikachu:hover {
+	transform: scale(1.1);
 }
