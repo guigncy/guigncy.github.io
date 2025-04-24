@@ -37,7 +37,6 @@ a:hover {
 	border: 1px solid #00ff00;
 	padding: 10px;
 	margin: 20px auto;
-	background-color: black;
 }
 
 .description {
@@ -45,7 +44,7 @@ a:hover {
 	border: 1px solid #00ff00;
 	margin: 10px 0;
 	background-color: #2A0A5C;
-	color: white
+	color: white;
 }
 /* Header settings */
 header {
