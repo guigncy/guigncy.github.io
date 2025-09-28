@@ -1,7 +1,7 @@
 body {
-    background-image: url('assets/ASCII-Art-Night-Sky.png'); /* Set the background image */
-    background-repeat: repeat; /* Make the image tile */
-    background-color: black; /* Fallback color if the image doesn't load */
+    background-image: url('assets/ASCII-Art-Night-Sky.png');
+    background-repeat: repeat;
+    background-color: black;
 	color: #00ff00;
 	font-family: 'IBM Plex Mono', 'Courier New', monospace;
 	margin: 0;
@@ -93,7 +93,7 @@ main {
 	border: 1px solid #00ff00;
 	padding: 10px;
 	margin-bottom: 20px;
-	min-height: 100px; /* Placeholder for content */
+	min-height: 100px;
 }
 
 .post h2{
