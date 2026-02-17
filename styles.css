@@ -70,7 +70,14 @@ header img {
 
 /* Navigation settings */
 nav {
+	position: sticky;
+    top: 0;
 	margin-bottom: 20px;
+	background-color: black
+}
+
+nav ul { 
+	display: flex;
 }
 
 ul {
